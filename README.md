@@ -4,7 +4,7 @@
 
 1. Create a folder ```Data``` in root
 
-2. Go to https://bixi.com/fr/donnees-ouvertes and download 2024 data
+2. Go to https://bixi.com/fr/donnees-ouvertes and download 2024 data and name it ```bixi_trajets.csv```
 
 3. Fetch the json from https://gbfs.velobixi.com/gbfs/2-2/en/station_information.json 
 
@@ -14,6 +14,7 @@
 
 5. run ```data_prep.py```
 
+**The bixi_trajets** is a very heavy file, if you want to test your code without having to use the whole dataset, create another csv with the first 1000 lines of that csv.
 
 ### Data_prep.py
 
